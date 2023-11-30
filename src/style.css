@@ -1,0 +1,532 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Opensans', sans-serif;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.nav_bar{
+    display: flex;
+    width: 30vw;
+    height: 98px;
+    padding: 0px 300px 0px 350px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.logo {
+    display: flex;
+    width: 140px;
+    height: 40px;
+    padding: 29px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.nav_item {    
+    padding: 35px;
+    font-size: 17px;
+    color: #1D252C;
+    font-weight: 500;
+    border: none;
+    background: #fff;
+}
+
+.find {
+    text-decoration: none;
+    color: #1D252C;
+}
+
+.search {
+    padding-left: 21px;
+}
+
+.line {
+    margin-left: 15px;
+    width: 1px;
+    height: 20px;
+    background: #5C6163;
+}
+
+.secondary_menu {
+    display: flex;
+    width: 168px;
+    height: 98px;
+    padding-right: 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+}
+
+.main {
+    position: relative;
+    width: 98.9vw;
+    height: 600px;
+    flex-shrink: 0;
+    background: url(../img/header_bg.png);
+}
+
+.main_line {
+    position: absolute;
+    margin: 110px 0px 67px 50px;
+    background: #B5B5B5;
+    width: 3px;
+    height: 350px;
+}
+
+.bigger_text {
+    color: #fff;
+
+    padding: 150px 0px 150px 87px;
+    width: 589px;
+    height: 85px;
+    flex-shrink: 0;
+    font-size: 80px;
+}
+
+.lower_text {
+    color: #fff;
+
+    margin: 0px 250px 0px 87px;
+    display: flex;
+    width: 832.67px;
+    height: 27px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.btn {
+    border-radius: 5px;
+    border: 1px solid #1971D4;
+    background: #1971D4;
+}
+
+.offer_details {
+    margin: 38px 0px 0px 87px;
+    padding: 26px 26px;
+    color: #fff;
+    display: flex;
+    height: 16px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.offer_details:hover {
+    background: #1560b7;
+}
+
+.complectation {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 25vh;   
+}
+
+.toggleButton {
+    border: none;
+    background: #fff;
+    color: #5C6163;
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; 
+    margin: 0px 50px;
+}
+
+#SUVs {
+    display: flex;
+}
+
+.vechiles {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.car {
+    width: auto;
+    margin-top: 45px;
+    height: 250px;
+    margin-left: 50px;
+}
+
+.car_img {
+    margin-left: 30px;
+    width: 205px;
+    height: 120px;
+    flex-shrink: 0;
+}
+
+.car_name {
+    margin-top: 25px;
+    color: #1D252C;
+    text-align: center;
+    font-size: 20.344px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; 
+}
+
+.cost {
+    font-size: 14px;
+    margin: 10px 0px 0px 70px;
+}   
+
+#elementToToggleSUVs {
+    display: flex;
+}
+
+#elementToToggleWilderness {
+    display: none;
+}
+
+#elementToToggleElectric {
+    display: none;
+}
+
+#elementToTogglePerformanse {
+    display: none;
+}
+
+#elementToToggleCars {
+    display: none;
+}
+
+.media {
+    display: flex;
+    flex-wrap: nowrap;
+    background: #1D252C;
+    height: 104vh;
+}
+
+.media_img {
+    margin-left: 4vw;
+    width: 15vw;
+}
+
+.media_image {
+    margin-left: 7vw;
+    width: 60vw;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.media_text {
+    width: 50wv;
+}
+
+.reasons {
+    margin: 70px 0px 0px 50px;
+    color: #B7BCC2;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.big_text {
+    margin: 20vh 0px 0px 50px;
+    color: #FFF;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px; /* 107.692% */
+    letter-spacing: -0.5px;
+}
+
+.low_text {
+    margin: 60px 0px 0px 50px;
+    color: #B7BCC2;
+
+    font-size: 16.07px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; 
+}
+
+.content {
+    position: block;
+    background: #F7F8F9;
+    display: flex;
+    width: 100%;
+    height: 540px;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.card {
+    margin: 25px;
+}
+
+.card_img {
+    width: 28vw;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+.card_text {
+    margin: 25px;
+}
+
+.card_title {
+    margin: 30px 0px 0px 0px;
+    color: #1D252C;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+}
+
+.card_desc {
+    color: #5C6163;
+
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.card_link {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #1971D4;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background: #1D252C;
+    height: 70vh;
+    width: 100%;
+}
+
+.footer_text {
+    width: 250px;
+    height: 150px;
+    margin: 0px 0px 0px 50px;
+    padding-top: 140px;
+}
+
+.footer_title {
+    color: #FFF;
+
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 67px;
+}
+
+.footer_desc {
+    margin-top: 20px;
+    color: #FFF;
+
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px
+}
+
+.connect_us {
+    width: 250px;
+    height: 150px;
+    padding-top: 140px;
+}
+
+.text_connect_us {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.icon {
+    margin: 20px 20px 20px 0px;
+}
+
+.links {
+    display: flex;
+}
+
+.link_text {
+    margin: 0px 0px 20px 20px;
+    color: #B7BCC2;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.about {
+    width: 250px;
+    height: 150px;
+    padding: 140px 50px 0px 0px;
+}
+
+.about_title {
+    color: #FFF;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.about_text {
+    margin: 20px 0px 20px 0px;
+    color: #B7BCC2;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; 
+}
+
+.toggleButton:hover {
+    border-bottom: 2px solid #000;
+}
+
+/* car links */
+
+.car_main {
+    display: flex;
+    height: 80vh;
+}
+
+.car_text_main {
+    height: 100%;
+    background: #1D252C;
+    width: 60vw;
+    padding: 0px 30px 0px 30px;
+}
+
+.car_img_main {
+    margin-top: 10vh;
+    width: 40vw;
+    height: 55vh;
+    flex-shrink: 0;
+}
+
+.upper_text {
+    margin-top: 30px;
+    height: 30%;
+    width: 40%;
+    margin-left: 20px;
+}
+
+.car_name_text {
+    color: #B7BCC2;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.car_compictation {
+    margin: 30px 0px 0px 60px; 
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.car_display {
+    display: flex;
+}
+
+.car_price {
+    width: 40%;
+    margin-top: 60px;
+}
+
+.car_prices {
+    margin-left: 30px;
+    color: #B7BCC2;
+    font-size: 16px;
+}
+
+.car_price_num {
+    margin-left: 30px;
+    margin-top: 10px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.car_line {
+    margin-top: 30px;
+    padding: 0.1px;
+    background: #3D444A;
+}
+
+.car_lower_display {
+    display: flex;
+}
+
+.car_lowers_text {
+    margin-top: 8vh;
+}
+
+.car_lowerss_text {
+    margin: 8vh 0px 0px 10vw;
+}
+
+.car_lower_text {
+    color: #FFF;
+    margin: 30px;
+    font-size: 13px;
+}
+
+.car_btn {
+    color: #fff;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 1px solid #1971D4;
+    
+    background: #1971D4;
+    padding: 15px 60px;
+}
+
+.car_img_main_outback {
+    margin-top: 12vh;
+    width: 45vw;
+    height: 50vh;
+    flex-shrink: 0;
+}
+
+.car_img_main_solttera {
+    margin-top: 12vh;
+    width: 45vw;
+    height: 50vh;
+    flex-shrink: 0;
+}
+
+.car_img_main_wrx {
+    margin-top: 12vh;
+    width: 40vw;
+    height: 45vh;
+    flex-shrink: 0;
+}
+
+.car_img_main_impreza {
+    margin-top: 12vh;
+    width: 40vw;
+    height: 50vh;
+    flex-shrink: 0;
+}
